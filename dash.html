@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .section {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            transition: box-shadow 0.3s;
+        }
+
+        .section:hover {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .section p,
+        .section ul {
+            margin-bottom: 1rem;
+        }
+
+        .section ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        .section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .section ul li span {
+            border: 1px solid #e5e7eb;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+        }
+
+        .section img {
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+<div class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold mb-6">Dashboard</h1>
+    <!-- Section 1: Identifying and Solving Problems -->
+    <div class="section">
+        <h2>1. Identifying and Solving Problems</h2>
+        <p>Approach: Use methods like Root Cause Analysis or Fishbone Diagram to analyze company processes, identify key problems, and understand their causes.</p>
+        <p>Types of Analysis:</p>
+        <ul>
+            <li>Descriptive Analysis – Provides information about existing processes.</li>
+            <li>Process Mining – Identifies problems in processes.</li>
+        </ul>
+        <p>Technologies:</p>
+        <ul>
+            <li><span>Power BI</span>, Tableau – For data visualization and analysis.</li>
+            <li><span>Python</span> (pandas, NumPy) – For data analysis.</li>
+            <li>JIRA, Asana – For issue management and tracking.</li>
+        </ul>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <img alt="Root Cause Analysis diagram showing the main causes of a problem" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/mOx6iDRe5XWYPKVCOlkKblddW0lOd7DCRhfvHWO3SNduj47TA.jpg" width="600"/>
+            <img alt="Fishbone Diagram illustrating various factors contributing to a problem" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/CuNtD8YZeSViLySSqiA6kZXT3VJVhFeqMYEcdeuN19yBHx3nA.jpg" width="600"/>
+        </div>
+    </div>
+    <!-- Section 2: Data-Driven Decision Making -->
+    <div class="section">
+        <h2>2. Data-Driven Decision Making</h2>
+        <p>Approach: Base decisions on data using the Data-Driven Decision Making (DDDM) principle. Collect, analyze, and forecast data.</p>
+        <p>Types of Analysis:</p>
+        <ul>
+            <li>Diagnostic Analysis – Identifies why a problem occurred.</li>
+            <li>Predictive Analysis – Forecasts future trends.</li>
+        </ul>
+        <p>Technologies:</p>
+        <ul>
+            <li><span>SQL</span> – For database management and analysis.</li>
+            <li><span>Python</span> (scikit-learn) or R – For predictive models.</li>
+            <li><span>Power BI</span>, Looker – For decision visualization.</li>
+        </ul>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <img alt="Diagnostic Analysis chart showing the root causes of a problem" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/HBxzKzrx1E4MOlTu9UJqOC51t3ziuEp18isZ1uMp4XA5Ie9JA.jpg" width="600"/>
+            <img alt="Predictive Analysis graph forecasting future trends" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/KdcstsZSPBplKNszRJqDRzIXvoPVFhbDtD4rxmjfE1B2R89JA.jpg" width="600"/>
+        </div>
+    </div>
+    <!-- Section 3: Process Optimization -->
+    <div class="section">
+        <h2>3. Process Optimization</h2>
+        <p>Approach: Use Lean Six Sigma or BPM (Business Process Management) methodologies to optimize company production, delivery, and other processes.</p>
+        <p>Types of Analysis:</p>
+        <ul>
+            <li>Process Analysis – Evaluates and optimizes process steps.</li>
+            <li>Efficiency Analysis – Identifies efficiency.</li>
+        </ul>
+        <p>Technologies:</p>
+        <ul>
+            <li>Bizagi, Lucidchart – For process mapping.</li>
+            <li><span>Python</span> (SimPy) – For process simulation.</li>
+            <li>ERP systems (SAP, Odoo) – For resource management.</li>
+        </ul>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <img alt="Process Analysis chart showing steps in a process" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/4ZXdIIPSMEIuPBJP1ea4SV0Of36TnGVF3AHCdpKnfPD8Gx3nA.jpg" width="600"/>
+            <img alt="Efficiency Analysis graph showing performance metrics" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/4nFkYXewrYTXXaBWffsjBilXTkndoBetQ3xS3EetfUdS6Ie9JA.jpg" width="600"/>
+        </div>
+    </div>
+    <!-- Section 4: Enhancing Competitiveness -->
+    <div class="section">
+        <h2>4. Enhancing Competitiveness</h2>
+        <p>Approach: Use Competitive Analysis and SWOT analysis to analyze the market and competitors.</p>
+        <p>Types of Analysis:</p>
+        <ul>
+            <li>Benchmarking – Compare your company with competitors.</li>
+            <li>Market Analysis – Identify market share and growth opportunities.</li>
+        </ul>
+        <p>Technologies:</p>
+        <ul>
+            <li>Google Trends, SEMrush – For market analysis.</li>
+            <li><span>Power BI</span>, Excel – For comparison and data analysis.</li>
+            <li>Web scraping (<span>Python</span> – BeautifulSoup, Selenium) – For gathering data from competitors.</li>
+        </ul>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <img alt="Competitive Analysis chart comparing company with competitors" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/QzoNeDuIm22Gc673abeTLiuM5PnG26fzqkfRZAtvULOVOivPB.jpg" width="600"/>
+            <img alt="SWOT Analysis diagram showing strengths, weaknesses, opportunities, and threats" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/ltsRn8F0pv4jARh1B7PZlO8m1XDXgqmWrctFQ0Gpmki4Ie9JA.jpg" width="600"/>
+        </div>
+    </div>
+    <!-- Section 5: Economic Efficiency and Growth -->
+    <div class="section">
+        <h2>5. Economic Efficiency and Growth</h2>
+        <p>Approach: Use Financial Analysis and ROI (Return on Investment) calculations to analyze the company's financial performance and identify new revenue sources.</p>
+        <p>Types of Analysis:</p>
+        <ul>
+            <li>Financial Analysis – Evaluate income, expenses, and profit.</li>
+            <li>Growth Analysis – Study company growth trends.</li>
+        </ul>
+        <p>Technologies:</p>
+        <ul>
+            <li>Excel, Google Sheets – For financial calculations.</li>
+            <li><span>Power BI</span>, QuickBooks – For monitoring financial metrics.</li>
+            <li><span>Python</span> (matplotlib, pandas) – For financial data analysis.</li>
+        </ul>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <img alt="Financial Analysis chart showing income, expenses, and profit" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/qazkyEBE2vqXLN3lUlzYRztQrhyDx0lWeWCUfT7wPA2fGx3nA.jpg" width="600"/>
+            <img alt="Growth Analysis graph showing company growth trends" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/hsqlzXKCO1KfdSX2BHONILc8Gc5aOdDvlcE9qmykfb8nj47TA.jpg" width="600"/>
+        </div>
+    </div>
+    <!-- Section 6: Understanding Customer Needs -->
+    <div class="section">
+        <h2>6. Understanding Customer Needs</h2>
+        <p>Approach: Use Customer Segmentation and Sentiment Analysis methods to understand customer behavior and needs.</p>
+        <p>Types of Analysis:</p>
+        <ul>
+            <li>Customer Analysis – Segment customer data.</li>
+            <li>Behavioral Analysis – Analyze customer purchasing behavior.</li>
+        </ul>
+        <p>Technologies:</p>
+        <ul>
+            <li><span>Python</span> (NLTK, TextBlob) – For analyzing customer feedback.</li>
+            <li>Google Analytics – For website traffic analysis.</li>
+            <li>CRM systems (HubSpot, Zoho) – For managing customer data.</li>
+        </ul>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <img alt="Customer Segmentation chart showing different customer segments" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/L21ifut6vx08Q6YwQ2FU2PXrJyHmEfXFkc1Rof3VxlCeOivPB.jpg" width="600"/>
+            <img alt="Sentiment Analysis graph showing customer sentiment trends" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/eKxpqRhKkkyVNi1iRABfPbNSfqJNWmS8baZa3e79VkEMOivPB.jpg" width="600"/>
+        </div>
+    </div>
+    <!-- Section 7: Reducing Risks -->
+    <div class="section">
+        <h2>7. Reducing Risks</h2>
+        <p>Approach: Use Risk Assessment and Scenario Analysis to manage risks and develop countermeasures.</p>
+        <p>Types of Analysis:</p>
+        <ul>
+            <li>Risk Analysis – Identify and evaluate potential risks.</li>
+            <li>Scenario Analysis – Analyze the impact of risks in different scenarios.</li>
+        </ul>
+        <p>Technologies:</p>
+        <ul>
+            <li>Monte Carlo Simulation (<span>Python</span> – numpy, scipy) – For probability analysis.</li>
+            <li><span>Power BI</span>, Excel – For visualizing risk data.</li>
+            <li>GRC systems (Governance, Risk, Compliance) – For managing risks.</li>
+        </ul>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <img alt="Risk Analysis chart showing potential risks and their impact" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/z59sR9HdTobEGtq0LBCCbNe4eBildktQx6hxZTpTKUcqj47TA.jpg" width="600"/>
+            <img alt="Scenario Analysis graph showing the impact of risks in different scenarios" class="mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/stRi2wbzKD4lMxJfR1iyAyUOCkI3I6HvDaKYsc7WwoP0R89JA.jpg" width="600"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>
